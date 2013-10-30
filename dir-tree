@@ -1,0 +1,11 @@
+lib
+└── termodoro
+    └── termodoro.rb
+config
+└── environment.rb
+bin
+└── termodoro
+spec
+├── spec_helper.rb
+└── termodoro_spec.rb
+
