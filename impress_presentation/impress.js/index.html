@@ -40,6 +40,23 @@
             <p>- Changelog</p>
     </div>
 
+    <div id="2-2" class="step" data-x="1000" data-y="-550">
+        <img src="../img/rake_release.png" />
+    </div>
+
+    <div id="2-3" class="step" data-x="1000" data-y="0">
+        <h1>The Basics</h1>
+            <p>- Bundler and Rake will be your friends for this, as always</p>
+            <p>- Directory structure / naming conventions</p>
+            <p>---> <strong>Global load path</strong></p>
+            <p>- Smart gemspec file</p>
+            <p>- Changelog</p>
+    </div>
+
+    <div id="2-5" class="step" data-x="1000" data-y="550">
+        <img src="../img/dir-tree.png" />
+    </div>
+
     <div id="3" class="step" data-x="2000" data-y="0">
         <h1>Global Load Path</h1>
             <p>- Your gem's <code>lib</code> directory will be added to the load path</p>
@@ -53,52 +70,79 @@
             <p>- Keep it smart </p>
     </div>
 
-    <div id="5" class="step" data-x="4000" data-y="0">
+    <div id="5" class="step" data-x="3000" data-y="-500" data-rotate-x="45">
         <img src="../img/gemspec.png"/>
     </div>
 
-    <div id="5-1" class="step" data-x="5000" data-y="0">
+    <div id="6" class="step" data-x="5000" data-y="0">
         <h1>Changelog</h1>
             <p>Important and fun. Like reading an old diary from when you were a dumbass kid. Learn from your past.</p>
             <p>- Brings us to version tracking...</p>
     </div>
 
-    <div id="7" class="step" data-x="0" data-y="0">
-        <h1>Gem Presentation Title</h1>
+    <div id="5-2" class="step" data-x="4000" data-y="500" data-rotate-y="30">
+        <img src="../img/changelog.png" />
     </div>
 
-    <div id="8" class="step" data-x="0" data-y="0">
-        <h1>Gem Presentation Title</h1>
+    <div id="6-5" class="step" data-x="5000" data-y="0">
+        <h1>Changelog</h1>
+            <p>Important and fun. Like reading an old diary from when you were a dumbass kid. Learn from your past.</p>
+            <p>- Brings us to version tracking...</p>
     </div>
 
-    <div id="9" class="step" data-x="0" data-y="0">
-        <h1>Gem Presentation Title</h1>
+    <div id="7" class="step" data-x="6000" data-y="0">
+        <h1>Semantic Versioning</h1>
+            <img src="../img/semver.png" />
+            <p>^ from <a href="http://semver.org/">http://semver.org</a></p>
     </div>
 
-    <div id="10" class="step" data-x="0" data-y="0">
-        <h1>Gem Presentation Title</h1>
+    <div id="8" class="step" data-x="6000" data-y="0" data-z="-1000" data-rotate-x="45" >
+        <h1>In Practice...</h1>
+        <img src="../img/version-module.png" />
+        <img src="../img/gemspec-version.png" />
     </div>
 
-    <div id="11" class="step" data-x="0" data-y="0">
-        <h1>Gem Presentation Title<h1>
+    <div id="9" class="step" data-x="7000" data-y="0">
+        <p>Aside from making the .gemspec smarter, this bakes the concept of your gem's version right into the code.</p>
+        <p>You want the version to be an aspect of the software, not the distribution platform</p>
     </div>
 
-    <div id="12" class="step" data-x="0" data-y="0">
-        <h1>Gem Presentation Title<h1>
+    <div id="10" class="step" data-x="9000" data-y="800" data-rotate-x="90">
+        <h1>Travis - Continuous Integration</h1>
+        <p><img src="../img/build-passing.png" />
+        <-- You ever look at that and wonder what it means?<p/>
     </div>
 
-    <div id="13" class="step" data-x="0" data-y="0">
-        <h1>Gem Presentation Title<h1>
+    <div id="11" class="step" data-x="10000" data-y="800" data-z="600" data-rotate-x="90">
+        <p>Project is built in a number of different contexts at every commit.</p>
+        <p>If something (or someone) breaks the software you'll know immediately</p>
     </div>
 
-    <div id="14" class="step" data-x="0" data-y="0">
-        <h1>Gem Presentation Title<h1>
+    <div id="12" class="step" data-x="10000" data-y="400" data-rotate-y="-45">
+        <img src="../img/travis_web.png" />
     </div>
 
-    <div id="15" class="step" data-x="0" data-y="0">
-        <h1>Gem Presentation Title<h1>
+    <div id="13" class="step" data-x="11000" data-y="-500" data-scale="3">
+        <h1>TESTING!<h1>
     </div>
 
+    <div id="14" class="step" data-x="12000" data-y="-500" data-scale="3">
+        <p>- Always important. More so in this context.</p>
+        <p>- New reasons to test... </p>
+    </div>
+
+    <div id="15" class="step" data-x="14000" data-y="-500" data-scale="1">
+        <p>1. Allows potential users to verify that your code is not borked.</p>
+        <p>2. Facilitates easy contribution (we'll come back to this soon).</p>
+        <p>3. Easily get a sense of the API ("it should make you a pizza. it should ask what toppings you want.") thanks to RSpec's nice readable format. (we'll come back to this even sooner)</p>
+    </div>
+
+    <div id="16" class="step" data-x="14000" data-y="100" data-scale="2">
+        <p>Added bonus: Use Simplecov!</p>
+        <p>Seeing 100% coverage on passing tests and knowing you're shipping a reliable gem is just a nice feeling...</p>
+    </div>
+
+    
 
 
 
