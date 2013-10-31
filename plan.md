@@ -11,6 +11,9 @@ Anyone can build a gem! …is what this presentation would be called if I was te
 - clarity about Ruby version support
 - general responsibility to the public
 
+As we make the transition from fiddlers to deployers, these are some of the things we should keep in mind. That said, don't ever stop building, no matter how janky your code is. make it work, *then* make it right.
+
+
 -----
 
 # Main points
@@ -18,9 +21,34 @@ Anyone can build a gem! …is what this presentation would be called if I was te
 - Proper documentation
 - Importance of testing re: gems
 - License and contributions
+	- open source and pull requests. again the importance of tests (this time your contributors' tests)
 - Semantic version
-- Travis
+- Travis (ruby version support)
 - Respect to the global load path
 	- directory structure
+- Changelog, updating version, etc.
+
+-----
+
+# Topics / Slids
+
+## The basic building blocks
+
+- Bundler and Rake
+- directory structure
+	- global load path
+- a smart .gemspec file
+- use of VERSION constant
+- Changelog
+
+# 
+
+
+
+
+
+
+
+
 
 
