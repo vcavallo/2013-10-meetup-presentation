@@ -15,6 +15,10 @@ As we make the transition from fiddlers to deployers, these are some of the thin
 
 "ok, the end - and for anyone who just woke up, that was the presentation on how to make 20 million dollars on the internet"
 
+###things to mention:
+
+- it's all about expectations and consistency. think about when you use some new application - there, you're probably done thinking about it because it doesn't take much forethought. you expect it to work. 
+
 -----
 
 # Main points
