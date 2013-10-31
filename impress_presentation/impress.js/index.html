@@ -1,0 +1,120 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="1" class="step" data-x="0" data-y="0">
+        <h1>Gem Presentation Title<h1>
+    </div>
+
+    <div id="2" class="step" data-x="1000" data-y="0">
+        <h1>The Basics</h1>
+            <p>- Bundler and Rake will be your friends for this, as always</p>
+            <p>- Directory structure / naming conventions</p>
+            <p>---> <strong>Global load path</strong></p>
+            <p>- Smart gemspec file</p>
+            <p>- Changelog</p>
+    </div>
+
+    <div id="3" class="step" data-x="2000" data-y="0">
+        <h1>Global Load Path</h1>
+            <p>- Your gem's <code>lib</code> directory will be added to the load path</p>
+            <p>- If you had a file named <code>erb.rb</code> there, any future <code>require 'erb'</code> would require this version.</p>
+    </div>
+
+    <div id="4" class="step" data-x="3000" data-y="0">
+        <h1>Gemspec file</h1>
+            <p>- Going to do a lot of work</p>
+            <p>- Will be updated often</p>
+            <p>- Keep it smart </p>
+    </div>
+
+    <div id="5" class="step" data-x="4000" data-y="0">
+        <img src="../img/gemspec.png"/>
+    </div>
+
+    <div id="5-1" class="step" data-x="5000" data-y="0">
+        <h1>Changelog</h1>
+            <p>Important and fun. Like reading an old diary from when you were a dumbass kid. Learn from your past.</p>
+            <p>- Brings us to version tracking...</p>
+    </div>
+
+    <div id="7" class="step" data-x="0" data-y="0">
+        <h1>Gem Presentation Title</h1>
+    </div>
+
+    <div id="8" class="step" data-x="0" data-y="0">
+        <h1>Gem Presentation Title</h1>
+    </div>
+
+    <div id="9" class="step" data-x="0" data-y="0">
+        <h1>Gem Presentation Title</h1>
+    </div>
+
+    <div id="10" class="step" data-x="0" data-y="0">
+        <h1>Gem Presentation Title</h1>
+    </div>
+
+    <div id="11" class="step" data-x="0" data-y="0">
+        <h1>Gem Presentation Title<h1>
+    </div>
+
+    <div id="12" class="step" data-x="0" data-y="0">
+        <h1>Gem Presentation Title<h1>
+    </div>
+
+    <div id="13" class="step" data-x="0" data-y="0">
+        <h1>Gem Presentation Title<h1>
+    </div>
+
+    <div id="14" class="step" data-x="0" data-y="0">
+        <h1>Gem Presentation Title<h1>
+    </div>
+
+    <div id="15" class="step" data-x="0" data-y="0">
+        <h1>Gem Presentation Title<h1>
+    </div>
+
+
+
+
+    
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
+
