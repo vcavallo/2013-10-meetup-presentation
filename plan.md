@@ -19,12 +19,12 @@ As we make the transition from fiddlers to deployers, these are some of the thin
 
 # Main points
 
-- Proper documentation
-- Importance of testing re: gems
-- License and contributions
-	- open source and pull requests. again the importance of tests (this time your contributors' tests)
+- ~~Proper documentation~~
+- ~~Importance of testing re: gems~~
+- ~~License and contributions~~
+	- ~~open source and pull requests. again the importance of tests (this time your contributors' tests)~~
 - ~~Semantic version~~
-- Travis (ruby version support)
+- ~~Travis (ruby version support)~~
 - ~~Respect to the global load path~~
 	- ~~directory structure~~
 - ~~Changelog, updating version, etc.~~
@@ -35,12 +35,13 @@ As we make the transition from fiddlers to deployers, these are some of the thin
 
 ## The basic building blocks
 
-- Bundler and Rake
-- directory structure
-	- global load path
+- Bundler and Rake are your friend for this. there are also plenty of gems to help create proper skeletons. i didn't use them.
+- directory structure, naming, conventions, etc.
+	- global load path. very important. - a good example of why best-practices matter.
 - a smart .gemspec file
 	- use of VERSION constant (will be mentioned later)
-- Changelog - which segues into…
+	- proper dependencies (especially if using older version of gems, use `~>`)
+- Changelog (it's also just fun to look back at this! like reading an old journal. learn from your own past.) - which segues into…
 
 ## Semantic Versioning
 
@@ -63,11 +64,25 @@ As we make the transition from fiddlers to deployers, these are some of the thin
 - Always important! Doubly-so for gems and other public releases.
 - the obvious: allows you to make sure that your updates and refactors are not breaking code. 
 - the slightly less obvious: allows prospective users to:
-	1. verify that your code is borked.
-	2. 
+	1. verify that your code is not borked.
+	3. allow for easy contribution (we'll come back to this soon)
+	2. get a quick sense of the API ("it should make you a pizza. it should ask what toppings you want.") thanks to RSpec's nice readable format. (we'll come back to this even sooner)
+- simplecov - it is a great feeling to see 100% test coverage AND all passing tests. 
 
+## Documentation
 
+- as mentioned in testing, documentation is important.
+- Why? how many times have you read the documentation for a piece of software to see how to use it? like a million. that's how you know how to use it. 
+- for something simple like a gem it's not the end of the world, but you don't know where the project will go. add proper documentation early and it will grow with the project. 
+- it helps you write code. change your psuedocode into documentation as it comes to life. it's not that hard. 
+- it's just the community best-practice rule. it's part of releasing software. things need instructions.
 
+## Contributions
+
+- this seems like a good place to mention a license. use one. the MIT license can be used by all. be sure to mention your contributors.
+- make it clear in your readme with a "contributions" section. request that those interested fork, submit a pull request, update the changelog and write tests. 
+- their tests will increase your confidence in their work as well as explain what they set out to do. 
+- the more you adhere to general best practices, the easier it is for others to guess how your gem works and contribute in a normalized way. 
 
 
 
